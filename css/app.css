@@ -1,0 +1,58 @@
+body {
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html {
+	font-size: 62.5%;
+}
+h1,
+h2 {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	padding: 3rem 0;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+.contenedor {
+	background-color: white;
+	max-width: 1100px;
+	margin: 0 auto 8rem auto;
+}
+form {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 4rem;
+	background: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#resultado {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 3rem;
+}
+#resultado tr td:nth-child(4) {
+	text-align: right;
+}
+#resultado tr td:nth-child(5) {
+	text-align: center;
+}
+.noResultado {
+	margin-top: 2rem;
+}
+#resultado tr.alerta {
+	margin-bottom: 3rem;
+}
+#resultado tr.alerta td {
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	padding: 0.5rem 8.9rem;
+}
+.error {
+	background-color: red;
+}
